@@ -2,7 +2,7 @@ from typing import Optional
 from fastapi import APIRouter
 from pydantic import BaseModel
 
-router = APIRouter()N 
+router = APIRouter()
 
 class Item(BaseModel):
     name: str
